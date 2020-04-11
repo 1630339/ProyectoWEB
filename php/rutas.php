@@ -13,6 +13,8 @@ class Modelo
                 $enlace == "agregar_gamers" ||
                 $enlace == "editar_gamer" ||
                 $enlace == "juegos" ||
+                $enlace == "galeria" ||
+                $enlace == "inicio" ||
                 $enlace == "agregar_juego" ||
                 $enlace == "editar_juego"){
                 $pagina = "Paginas/Administrador/". $enlace .".php";

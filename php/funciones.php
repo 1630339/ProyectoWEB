@@ -15,6 +15,10 @@ class Controlador
                 include 'signup.php';
             } else if($pagina == 'iniciarSesion'){
                 include 'login.php';
+            }else if($pagina == 'galeria'){
+                include 'galeria.php';
+            }else if($pagina == 'inicio'){
+                include 'index.php';
             }else{
                 if( $pagina == 'contraincorrecta'){
                     include 'login.php';
